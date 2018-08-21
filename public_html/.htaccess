@@ -1,0 +1,4 @@
+# A reverse proxy from /* to http://staffintranet.journalism.hkbu.edu.hk/interactive/*
+
+RewriteEngine On
+RewriteRule "^(.*)$" "http://staffintranet.journalism.hkbu.edu.hk/interactive/$1" [P]
